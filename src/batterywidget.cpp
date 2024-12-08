@@ -1,6 +1,7 @@
 #include <QDesktopWidget>
 #include "batterywidget.h"
 #include "ui_batterywidget.h"
+#include <QStyle>
 
 BatteryWidget::BatteryWidget(QWidget *parent) :
     QWidget(parent),
